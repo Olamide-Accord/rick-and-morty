@@ -1,0 +1,39 @@
+.heroDiv{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 1rem auto;
+}
+.box{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+}
+.card{
+  background-color: #eee;
+  flex: 1 1 20rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.7rem 1rem rgba(0,0,0,0.2);
+  padding: 2.5rem 0;
+  text-align: center;
+}
+.card:hover{
+  cursor: pointer;
+}
+.card h4{
+  font-size: 1.7rem;
+  margin-bottom: 0.6rem;
+  font-weight: 500;
+}
+.card p{
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-bottom: 0.8rem;
+}
+.card h5{
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
